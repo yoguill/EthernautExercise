@@ -26,6 +26,8 @@ module.exports = {
       url: process.env.RINKEBY_URL || "",
       accounts:
         process.env.PRIVATE_KEY_01 !== undefined ? [process.env.PRIVATE_KEY_01,process.env.PRIVATE_KEY_02] : [],
+        gas: 8000000,
+        gasPrice: 30000000000,
     },
     ropsten:{
       url: process.env.ROPSTEN_URL || "",

@@ -1,7 +1,7 @@
 import { ethers } from "hardhat";
-import { TelephoneAttack__factory } from "../../typechain-types/factories/Exercise4/TelephoneHack.sol/TelephoneAttack__factory"
-import { Telephone__factory } from "../../typechain-types/factories/Exercise4/Telephone__factory"
-import { TelephoneAttack } from "../../typechain-types";
+import { TelephoneAttack__factory } from "../typechain-types/factories/Exercise4/TelephoneHack.sol/TelephoneAttack__factory"
+import { Telephone__factory } from "../typechain-types/factories/Exercise4/Telephone__factory"
+import { TelephoneAttack } from "../typechain-types";
 import { expect } from "chai";
 
 async function main() {
